@@ -186,3 +186,46 @@ h1{
     top: -120px;
     left: 210px;
 }
+
+
+/*for users page*/
+
+.userPage{
+    display: flex;
+    flex-direction: column;
+    background: white;
+}
+
+.usersHeader{
+    text-align: center;
+}
+
+.users{
+    display: flex;
+background-color: #dfd7c7;
+border: solid 10px #dfd7c7;
+border-radius: 10%;
+margin: 10px;
+width: 200px;
+height: 210px;
+display: flex;
+flex-direction: column;
+font-weight: bold;
+text-align: center;
+justify-content: center;
+align-items: center;
+}
+
+
+.users img {
+    width: 180px;
+    height: 180px;
+    border-radius: 5%;
+    margin-top: 35px;
+    
+}
+
+#display{
+    display: flex;
+    justify-content: center;
+}
